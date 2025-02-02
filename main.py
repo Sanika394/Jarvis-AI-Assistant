@@ -8,7 +8,7 @@ import pygame
 import os
 
 # Set up Gemini API key
-genai.configure(api_key="AIzaSyAA-h--SY4QUdD2IKUd3g4xt9BKfRnHUEo")
+genai.configure(api_key="your api key here")
 
 def get_gemini_response(command):
     model = genai.GenerativeModel("gemini-pro")
